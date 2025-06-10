@@ -1,5 +1,11 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  ],
+  "build": {
+    "env": {
+      "BUILD_COMMAND": "npm run build"
+    }
+  },
+  "outputDirectory": "build"
 } 
