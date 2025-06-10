@@ -2,10 +2,7 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "build": {
-    "env": {
-      "BUILD_COMMAND": "npm run build"
-    }
-  },
-  "outputDirectory": "build"
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app"
 } 
